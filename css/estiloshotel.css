@@ -127,7 +127,7 @@ align-content: center;
 #redes{
   background-image: url("../images/redes.png");
   position: absolute;
-  right: 450px;
+  right: 200px;
   top: 1125px;
   z-index: 34;
 }
