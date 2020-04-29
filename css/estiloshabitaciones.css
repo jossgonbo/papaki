@@ -1,0 +1,119 @@
+@charset "utf-8";
+body{
+	background-color: #295879;
+}
+.encabezado{
+  position: absolute;
+  width: 1394px;
+  height: 461px;
+  z-index: 16;
+align-content: center;
+}
+.logo{
+  position: absolute;
+  left: 31px;
+  top: 304px;
+  width: 232px;
+  height: 125px;
+  z-index: 17;
+}
+#menubar{
+  background-color: rgb(41, 88, 121);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.27);
+  position: absolute;
+  left: 559px;
+  top: 414px;
+  width: 807px;
+  height: 92px;
+  z-index: 21;
+  }
+#menubar ul{
+  list-style: none;
+}
+#menubar ul li{
+  display: inline-block;
+  padding-top: 25px;
+}
+#menubar ul li a{
+	color: #FFC000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 15px;
+	}
+#menubar ul li a:hover {
+	background-color: darkturquoise;
+}
+
+
+#carouselExampleIndicators1{
+	padding-top: 480px;
+	}
+h5{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 29px;
+	font-weight: bold;
+	color: #EE7E80;
+}
+.carousel-caption{
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	font-weight: 600;
+}
+
+#barraceleste{
+	border-radius: 25px;
+  position: absolute;
+  left: 92px;
+  top: 1486px;
+  z-index: 30;
+}
+.informacion{
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+  color: rgb(0, 0, 0);
+  line-height: 1.083;
+  text-align: center;
+  -moz-transform: matrix(0.99633967789165,0,0,0.99609375,0,0);
+  -webkit-transform: matrix(0.99633967789165,0,0,0.99609375,0,0);
+  -ms-transform: matrix(0.99633967789165,0,0,0.99609375,0,0);
+  position: absolute;
+  left: 150px;
+  top: 1525px;
+  z-index: 34;
+}
+#redes{
+  background-image: url("../images/redes.png");
+  position: absolute;
+  right: 200px;
+  top: 1525px;
+  z-index: 34;
+}
+#barranaranja{
+  position: absolute;
+  left: -6px;
+  top: 1549px;
+  z-index: 29;
+}
+#derechos{
+	font-size: 21px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+  color: rgb(255, 255, 255);
+  line-height: 1.3;
+  text-align: center;
+  -moz-transform: matrix( 0.99633967789165,0,0,0.99609375,0,0);
+  -webkit-transform: matrix( 0.99633967789165,0,0,0.99609375,0,0);
+  -ms-transform: matrix( 0.99633967789165,0,0,0.99609375,0,0);
+  position: absolute;
+  left: 398.605px;
+  top: 1617px;
+   z-index: 45;
+}
+
+
+
+
+
+
